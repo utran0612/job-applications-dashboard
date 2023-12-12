@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Job Application Input",
+  "version": "1.0",
+  "description": "Allow you to quickly add and save the information of your job application",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Popup input",
+    "default_icon": "icon-16.png"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["http://localhost:3000/dashboard"],
+  "icons": {
+    "16": "icon-16.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
