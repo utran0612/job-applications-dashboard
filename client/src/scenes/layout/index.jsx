@@ -11,7 +11,7 @@ const Layout = () => {
     const [isSidebarOpen, setIsSidebarOpne] = useState(true);
     const userId = useSelector((state) => state.global.userId);
     const { data } = useGetUserQuery(userId);
-    console.log("data", data);
+
 
     return <Box display={isNonMobile ? "flex" : "block"} width="100%" height="100%">
         <Sidebar
@@ -23,6 +23,7 @@ const Layout = () => {
         />
         <Box>
             <NavBar
+                user={data || {}}
                 isSidebarOpen={isSidebarOpen}
                 setIsSidebarOpne={setIsSidebarOpne} />
             <Outlet />
