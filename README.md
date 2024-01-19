@@ -18,26 +18,21 @@
 This application helps you organize your job search by automatically fetching the data from your mailbox to display on the dashboard. You also have the option to manually modify your information using a Chrome extension. 
 I'm actively building this to elaborate more on the 'automatic" aspect of the application by integrating NER model to analyse text from your mailbox. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
 
 * [![React][React.js]][React-url]
-* [![Material UI][https://mui.com/material-ui/][https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white]
-* [![NodeJS][https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white][https://nodejs.org/en]
-* [![MongoDB][https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white][(https://www.mongodb.com/)]
+* [![Material UI][MaterialUI.js]][MaterialUI-url]
+* [![NodeJS][Node.js]][Node-url]
+* [![MongoDB][MongoDB.js]][MongoDB-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- INSTALLATION -->
 
 ## Installation
-
-### Install npm
 
 If you don't have npm (Node Package Manager) installed, you can download and install them from the official website: [npm](https://docs.npmjs.com/cli/v10/commands/npm-install)
 
@@ -59,3 +54,9 @@ cd your-repository
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[MaterialUI.js]: https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white
+[MaterialUI-url]: https://mui.com/material-ui/
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/en
+[MongoDB.js]: https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
